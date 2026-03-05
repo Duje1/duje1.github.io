@@ -1,0 +1,65 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "AŠ Telefax",
+      "category": ["A1","A2","B","C","E"],
+      "city": ["Split", "Trogir", "Omiš"],
+      "location": "Borisa Papandopula 15, 21000 Split, Hrvatska",
+      "phone": "095 525 0715",
+      "shortDescription": "Vodeća autoškola u Splitu i Okolici",
+      "fullDescription": "Svakodnevno, iz godine u godinu, autoškola Telefax postiže sve bolje rezultate jer konstantno radimo na rješenjima koja će nam pomoći da razvijemo brži, efikasniji i kvalitetniji način obuke kandidata. Cilj autoškole Telefax je postati najbolja autoškola u Hrvatskoj!",
+      "image": "https://telefax.hr/wp-content/uploads/2022/10/logo-telefax.png",
+      "gallery": [
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
+        "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80"
+      ],
+      "email": "info@telefax.hr",
+      "website": "www.telefax.hr",
+      "hours": "Ponedjeljak – subota: 08:00-21:00",
+      "rating": 4.9,
+      "tags": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "title": "Croatia Start",
+      "category": ["AM","A1","A2","A","B","BE","C","CE","D","DE"],
+      "city": ["Split", "Solin", "Sinj"],
+      "location": "Kroz smrdečac 45, 21000 Split",
+      "phone": "091 548 9070",
+      "shortDescription": "Najbolji zbog najboljih Croatia Start - najbolja autoškola u Hrvatskoj",
+      "fullDescription": "Najbolji zbog najboljih Croatia Start - najbolja autoškola u Hrvatskoj Najveći broj polaznika 20+Instruktora 30+Automobila Najbolja Prolaznost",
+      "image": "https://www.croatiastart.hr/apple-touch-icon.png",
+      "gallery": [
+        "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=600&q=80"
+      ],
+      "email": "info@croatiastart.hr",
+      "website": "www.croatiastart.hr",
+      "hours": "Ponedjeljak - Petak 8:00 - 20:00 Subota 9:00 - 12:00 ",
+      "rating": 4.7,
+      "tags": [""]
+    },
+    {
+      "id": 3,
+      "title": "Instruktor",
+      "category": ["A1", "A2", "A", "B", "C", "CE", "D"],
+      "city": "Split",
+      "location": "Šibenska ul. 21, 21000, Split",
+      "phone": "091 444 9 777",
+      "shortDescription": "Upiši autoškolu Instruktor u Splitu – B, C, C+E, D kategorije, kondicijska vožnja, online upis i podrška na svakom koraku. Više od 60 godina iskustva..",
+      "fullDescription": "Autoškola Instruktor iz Splita jedna je od najdugovječnijih i najpouzdanijih autoškola u Dalmaciji, s više od 60 godina iskustva u obuci vozača svih kategorija. Kroz desetljeća rada, tisuće kandidata prošle su kroz naš sustav obuke i uspješno položile vozački ispit, postajući sigurni i odgovorni sudionici u prometu.",
+      "image": "https://instruktor.hr/wp-content/uploads/2025/07/logo-za-web.jpg",
+      "gallery": [
+        "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80",
+        "https://images.unsplash.com/photo-1682687220566-5599dbbebf11?w=600&q=80"
+      ],
+      "email": "",
+      "website": "www.instruktor.hr",
+      "hours": "Pon – Pet 07:00 h – 20:00 h",
+      "rating": 5,
+      "tags": [""]
+    }
+      ],
+  "categories": ["A1", "A2", "A", "B1", "B", "C1", "C", "D1", "D", "BE", "C1E", "CE", "D1E", "DE", "H" ],
+  "cities": ["Split","Solin", "Sinj", "Trogir", "Omiš", "Šibenik"]
+}

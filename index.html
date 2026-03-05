@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoškole</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LISTING PAGE -->
+  <div id="listingPage" class="page active">
+    <header>
+      <div class="header-inner">
+        <!-- <div class="logo-mark"></div> -->
+        <h1 class="site-title">Autoškole Hrvatske</h1>
+        <p class="site-subtitle">Otkrijte autoškolu za vas &amp; postanite vozač</p>
+      </div>
+    </header>
+
+    <div class="controls-bar">
+      <div class="controls-inner">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="searchInput" placeholder="Pretraživanje" autocomplete="off" />
+        </div>
+        <div class="dropdowns">
+          <div class="select-wrap">
+            <select id="categoryFilter">
+              <option value="">Sve Kategorije</option>
+            </select>
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="select-wrap">
+            <select id="cityFilter">
+              <option value="">Svi gradovi</option>
+            </select>
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="results-meta" id="resultsMeta"></div>
+      <div class="cards-grid" id="cardsGrid"></div>
+      <div class="no-results hidden" id="noResults">
+        <div class="no-results-icon">🔍</div>
+        <p>Nema rezultata.</p>
+        <button onclick="clearFilters()">Očisti filtere</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Duje Mandalinić · All rights reserved</p>
+    </footer>
+  </div>
+
+  <!-- DETAIL PAGE -->
+  <div id="detailPage" class="page">
+    <div class="detail-topbar">
+      <button class="back-btn" onclick="goBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        Back to listings
+      </button>
+    </div>
+    <div class="detail-content" id="detailContent"></div>
+    <footer>
+      <p>© 2025 Duje Mandalinić · All rights reserved</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
